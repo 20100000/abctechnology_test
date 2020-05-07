@@ -1,11 +1,11 @@
 <h1> Caso 1</h1>
 
-Eu faria o redirecionmento no servidor de hopedagem. <br>
+Eu faria o redirecionamento no servidor de hospedagem. <br>
 <h3>Para servidor de hospedagem</h3>
 Ex: na opção domínios >> Redirecionamento 
-no formulario de redirecionamento dominio utilizado e redireciona para outro dominio que escolher.
+no formulário de redirecionamento domínio utilizado e redireciona para outro domínio que escolher.
 
-<h3>Para fazer redirecionameto em PHP</h3> 
+<h3>Para fazer redirecionamento em PHP</h3> 
 <pre>
 header('Location: https://www.XPTO.com');
 </pre>
@@ -34,3 +34,9 @@ header('Location: https://www.XPTO.com');
 </pre>
 
 <h1> Caso 4</h1>
+Uma forma seria por FTP no servidor de hospedagem criar conta de FTP isso vai gerar.<br> 
+host<br> 
+usuário<br>
+senha<br> 
+
+Outra forma fazer o upload da aplicação em formato tipo zip para dentro do diretório public_html, em seguida descompactar a mesma
