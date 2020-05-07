@@ -1,6 +1,6 @@
 <h1> Caso 1</h1>
 Sera  necessário registrar o domínio gripe.com, o domínio deve apontar para IP do servidor, no servidor criar uma
- conta para esse domínio com cpanel. No cpanel na opção domínios >>  adicionar acrescente o nome do domínio depois e subir o HTML para pasta public_html.
+ conta para esse domínio com cpanel. No cpanel na opção domínios >>  adicionar domínio acrescente o nome do domínio depois e subir o HTML para pasta public_html.
 <h1> Caso 2</h1>
 <h1> Caso 3</h1>
    Definir padrão do charset para utf-8
@@ -11,6 +11,11 @@ Sera  necessário registrar o domínio gripe.com, o domínio deve apontar para I
 <h3>Em PHP</h3>
 <pre>
     header("Content-type: text/html; charset=utf-8");
+</pre>
+ou 
+<pre>
+    $headers = "Content-Type: text/plain; charset=utf-8";
+    mail($email,$assunto,$msg,$headers)
 </pre>
 <h3>Em PHPMailer</h3>
 
