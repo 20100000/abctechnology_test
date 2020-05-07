@@ -1,20 +1,6 @@
 <h1> Caso 1</h1>
-
-Eu faria o redirecionamento no servidor de hospedagem. <br>
-<h3>Para servidor de hospedagem</h3>
-Ex: na opção domínios >> Redirecionamento 
-no formulário de redirecionamento domínio utilizado e redireciona para outro domínio que escolher.
-
-<h3>Para fazer redirecionamento em PHP</h3> 
-<pre>
-header('Location: https://www.XPTO.com');
-</pre>
-<h3>Para fazer em .htaccess</h3>
- RewriteEngine on
- RewriteCond %{HTTP_HOST} ^dominio-antigo.com.br$ [OR]<br>
- RewriteCond %{HTTP_HOST} ^www.XPTO.com$<br>
- RewriteRule ^(.*)$ http://www.dominio-novo.com.br/$1 [R=301,L]<br>
-
+Sera  necessário registrar o domínio gripe.com, o domínio deve apontar para IP do servidor, no servidor criar uma
+ conta para esse domínio com cpanel. No cpanel na opção domínios >>  adicionar acrescente o nome do domínio depois e subir o HTML para pasta public_html.
 <h1> Caso 2</h1>
 <h1> Caso 3</h1>
    Definir padrão do charset para utf-8
