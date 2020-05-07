@@ -20,7 +20,7 @@ header('Location: https://www.XPTO.com');
    Definir padrão do charset para utf-8
 <h3>Em HTML</h3>
 <pre>
-    <meta charset="utf-8"/>
+    meta charset="utf-8"
 </pre>
 <h3>Em PHP</h3>
 <pre>
