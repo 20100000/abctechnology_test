@@ -35,11 +35,14 @@ header('Location: https://www.XPTO.com');
 
 <h1> Caso 4</h1>
 
-Uma forma seria por FTP no servidor de hospedagem criar conta de FTP isso vai gerar.<br> 
-host<br> 
-usuário<br>
-senha<br> 
+Versiona o código fonte no controlador de versão para retorna a versão anterior caso aja erro (dowgrade) .
+Enviar nova versão para o repositório Master da aplicação  (pullRequest).<br>
 
-Outra forma fazer o upload da aplicação para o servidor de hospedagem em formato tipo zip para dentro do diretório public_html, em seguida descompactar a mesma.
+.Uma forma para subir a aplicação, seria por FTP no servidor de hospedagem criar conta de FTP isso vai gerar<br> 
+host <br>
+usuário<br>
+senha <br>
+
+Outra forma fazer o upload da aplicação para o servidor de hospedagem em formato tipo zip para dentro do diretório <b>public_html</b>, em seguida descompactar a mesma.
 
 Claro que antes necessário fazer teste para identifica erros nos ambientes de teste e de homologação
