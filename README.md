@@ -1,6 +1,6 @@
 <h1> Caso 1</h1>
 
-Eu faria o redirecionmento no servidor de hopedaagem. Ex iria na opção domínios >> Redirecionamento 
+Eu faria o redirecionmento no servidor de hopedagem. Ex: na opção domínios >> Redirecionamento 
 no formulario de redirecionamento dominio utilizado e redireciona para outro dominio que escolher.
 
 #Para fazer redirecionameto em PHP 
