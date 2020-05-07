@@ -34,9 +34,12 @@ header('Location: https://www.XPTO.com');
 </pre>
 
 <h1> Caso 4</h1>
+
 Uma forma seria por FTP no servidor de hospedagem criar conta de FTP isso vai gerar.<br> 
 host<br> 
 usuário<br>
 senha<br> 
 
-Outra forma fazer o upload da aplicação em formato tipo zip para dentro do diretório public_html, em seguida descompactar a mesma
+Outra forma fazer o upload da aplicação para o servidor de hospedagem em formato tipo zip para dentro do diretório public_html, em seguida descompactar a mesma.
+
+Claro que antes necessário fazer teste para identifica erros nos ambientes de teste e de homologação
