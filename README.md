@@ -2,6 +2,19 @@
 Sera  necessário registrar o domínio gripe.com, o domínio deve apontar para IP do servidor, no servidor criar uma
  conta para esse domínio com cpanel. No cpanel na opção domínios >>  adicionar domínio acrescente o nome do domínio depois e subir o HTML para pasta public_html.
 <h1> Caso 2</h1>
+Acredito que devemos pegar ami do snapshop do ultimo dia do ano de 2019. Criar um novo volume ou seja um novo disco e anexa no servidor  para receber a copia do disco 2019.
+com o volume pronto rode comandos exemplo com banco mysql.
+No volume de 2019 rode o comando.  <br>
+<pre>
+    mysqldump -u root -p baseDeDados > path/baseDeDados.sql
+</pre>
+ Esse comando acima vai gerar um arquivo .sql<br>
+ no servidor que deseja inserir o backup rode o comando
+ <pre>
+   mysql -u root -p baseDeDados < path/baseDeDados.sql
+ </pre> 
+ esse comando acima vai iserir todos os dados do aquivo no banco de dados.<br>
+ 
 <h1> Caso 3</h1>
    Definir padrão do charset para utf-8
 <h3>Em HTML</h3>
